@@ -140,27 +140,25 @@ Claude will:
 ```
 social-posts-plugin/
 ├── .claude-plugin/
-│   └── plugin.json                    # Plugin metadata
-├── skills/
-│   └── social-posts/
-│       ├── SKILL.md                   # Main orchestrator
-│       ├── core/
-│       │   └── instructions.md         # Core writing framework
-│       ├── platforms/
-│       │   ├── linkedin-algorithm.md   # LinkedIn 2025 tactics
-│       │   ├── linkedin-growth.md      # LinkedIn growth strategy
-│       │   └── twitter.md              # Twitter/X best practices
-│       ├── writing-craft/
-│       │   ├── hooks-and-structure.md  # Julian Shapiro framework
-│       │   ├── storytelling.md         # MrBeast principles
-│       │   └── psychology.md           # Tej Dosa frameworks
-│       ├── tone/
-│       │   ├── fintechbrainfood.md     # Example tone guide
-│       │   └── custom-guide.md         # Template for your tone
-│       └── examples/
-│           ├── linkedin-examples.md    # LinkedIn post examples
-│           └── twitter-examples.md     # Twitter post examples
-└── README.md                          # This file
+│   └── plugin.json                # Plugin metadata (for CLI)
+├── SKILL.md                       # Main orchestrator (REQUIRED at root)
+├── core/
+│   └── instructions.md            # Core writing framework
+├── platforms/
+│   ├── linkedin-algorithm.md      # LinkedIn 2025 tactics
+│   ├── linkedin-growth.md         # LinkedIn growth strategy
+│   └── twitter.md                 # Twitter/X best practices
+├── writing-craft/
+│   ├── hooks-and-structure.md     # Julian Shapiro framework
+│   ├── storytelling.md            # MrBeast principles
+│   └── psychology.md              # Tej Dosa frameworks
+├── tone/
+│   ├── fintechbrainfood.md        # Example tone guide
+│   └── custom-guide.md            # Template for your tone
+├── examples/
+│   ├── linkedin-examples.md       # LinkedIn post examples
+│   └── twitter-examples.md        # Twitter post examples
+└── README.md                      # This file
 ```
 
 ## Creating a Custom Tone-of-Voice

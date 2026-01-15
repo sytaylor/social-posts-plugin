@@ -1,9 +1,7 @@
 ---
 name: social-posts
 description: Creates engaging social media posts for LinkedIn and Twitter/X with platform-specific optimization, proven writing frameworks, and customizable tone-of-voice. Use when writing social posts, adapting content across platforms, optimizing engagement, or creating content calendars.
-model: claude-opus-4-5-20251101
 allowed-tools: Read, Grep, AskUserQuestion
-user-invocable: true
 ---
 
 # Social Posts Skill
