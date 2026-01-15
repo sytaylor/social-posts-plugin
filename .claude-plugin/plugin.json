@@ -1,0 +1,20 @@
+{
+  "name": "social-posts",
+  "description": "Professional social media post creation with platform-specific optimization, writing frameworks, and customizable tone-of-voice",
+  "version": "1.0.0",
+  "author": {
+    "name": "Simon Taylor",
+    "url": "https://github.com/simontaylor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simontaylor/social-posts-plugin"
+  },
+  "keywords": [
+    "social-media",
+    "linkedin",
+    "twitter",
+    "content-creation",
+    "marketing"
+  ]
+}
