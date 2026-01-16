@@ -4,6 +4,124 @@ Scripts for maintaining and improving the social-posts profile through ongoing r
 
 ---
 
+## 🤖 Automated Quarterly Research (RECOMMENDED)
+
+**YES, you can fully automate the algorithm research!**
+
+### Quick Setup (One-Time):
+
+```bash
+cd ~/social-posts-plugin/profiles/simon
+bash scripts/setup-automation.sh
+```
+
+This will:
+1. Check dependencies (jq, curl)
+2. Setup your Anthropic API key
+3. Make scripts executable
+4. Optionally test the research
+5. Add cron jobs to run quarterly
+
+### What Gets Automated:
+
+**Quarterly (Jan 1, Apr 1, Jul 1, Oct 1):**
+- 9 AM: LinkedIn research runs automatically
+- 10 AM: Twitter/X research runs automatically
+- Results saved to `research/[platform]-patterns-YYYY-MM-DD.md`
+- Notification sent (macOS) when complete
+- **All claims are cited with sources** (inline markdown links)
+- **Compares against previous quarter** to identify changes
+
+**Cost:**
+- Uses Claude API (Claude 3.5 Sonnet)
+- ~$0.30-0.50 per research run
+- ~$2-4 per year total (4 quarters × 2 platforms)
+
+### Manual Test Run:
+
+```bash
+# Test LinkedIn research
+bash scripts/auto-research-linkedin.sh
+
+# Test Twitter research
+bash scripts/auto-research-twitter.sh
+```
+
+### How It Works:
+
+1. **Cron triggers quarterly** (first day of Jan/Apr/Jul/Oct)
+2. **Script calls Claude API** with research prompt (with strict citation requirements)
+3. **Claude researches** current algorithm patterns with sources
+4. **Results saved** to markdown file with inline citations
+5. **Script compares** against previous quarter's research
+6. **You get notified** to review findings
+7. **You archive** current guide version (optional)
+8. **You update** platform guides based on research
+
+### Requirements:
+
+- Anthropic API key (get at https://console.anthropic.com/settings/keys)
+- `jq` installed (`brew install jq`)
+- Cron access (standard on macOS/Linux)
+
+---
+
+## Version Control & Research Workflow
+
+### Research Output Structure
+
+**Raw research files:** `research/[platform]-patterns-YYYY-MM-DD.md`
+- Quarterly research with full citations
+- Comparison against previous quarter
+- Action items and source quality checklist
+
+**Current algorithm guides:** `platforms/[platform]-algorithm.md`
+- The "live" version you reference when writing posts
+- Updated after reviewing quarterly research
+- Should include "Last updated: YYYY-MM-DD" at top
+
+**Archived versions:** `research/archive/[platform]-algorithm-YYYY-MM.md`
+- Historical snapshots of algorithm guides
+- Archive the current version before major updates
+- Useful for tracking what changed over time
+
+### Quarterly Research Workflow
+
+**When new research arrives (automated):**
+
+1. **Review raw research** in `research/[platform]-patterns-YYYY-MM-DD.md`
+   - Check "Source Quality Checklist" - verify citations are present
+   - Review "Changes Since Previous Research" section
+   - Note any unverified claims
+
+2. **Archive current guide** (before making changes)
+   ```bash
+   cp platforms/linkedin-algorithm.md research/archive/linkedin-algorithm-$(date +%Y-%m).md
+   ```
+
+3. **Update platform guide** with new insights
+   - Add new tactics that are well-sourced
+   - Update changed benchmarks (engagement rates, optimal times)
+   - Mark deprecated advice with strikethrough or removal
+   - Add "Last updated: YYYY-MM-DD" at top
+   - Optional: Add changelog section showing what changed
+
+4. **Test new tactics** in next 5-10 posts
+   - Measure performance changes
+   - Document what works for YOUR audience
+
+5. **Keep research file** for next quarter's comparison
+
+### Why This Approach Works
+
+- ✅ **Version history** - Track how algorithms evolve over time
+- ✅ **Source verification** - All claims must be cited
+- ✅ **Change tracking** - Easy to see what's new vs confirmed patterns
+- ✅ **Your data wins** - Test generic advice against your own performance
+- ✅ **No hallucinations** - Unverified claims are clearly marked
+
+---
+
 ## Algorithm Research Prompt Template
 
 **See:** `algorithm-research-template.md` for the full quarterly research prompt.
