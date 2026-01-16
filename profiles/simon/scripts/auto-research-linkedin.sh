@@ -54,19 +54,21 @@ Format citations as markdown links inline, e.g.: \"Multi-image posts get 1.5x en
 
 echo "📡 Calling Claude API..."
 
-# Call Claude API with web search capability
+# Call Claude API with web search capability (use jq to properly encode JSON)
 RESPONSE=$(curl -s https://api.anthropic.com/v1/messages \
   -H "content-type: application/json" \
   -H "x-api-key: $ANTHROPIC_API_KEY" \
   -H "anthropic-version: 2023-06-01" \
-  -d '{
-    "model": "claude-3-5-sonnet-20241022",
-    "max_tokens": 4096,
-    "messages": [{
-      "role": "user",
-      "content": "'"${RESEARCH_PROMPT}"'"
-    }]
-  }')
+  -d "$(jq -n \
+    --arg prompt "$RESEARCH_PROMPT" \
+    '{
+      "model": "claude-3-haiku-20240307",
+      "max_tokens": 4096,
+      "messages": [{
+        "role": "user",
+        "content": $prompt
+      }]
+    }')")
 
 # Check for API errors
 if echo "$RESPONSE" | grep -q '"error"'; then
@@ -112,7 +114,7 @@ cat > "$OUTPUT_FILE" << EOF
 
 **Research Date:** $TIMESTAMP
 **Method:** Automated via Claude API
-**Model:** Claude 3.5 Sonnet
+**Model:** Claude 3 Haiku
 
 ---
 
