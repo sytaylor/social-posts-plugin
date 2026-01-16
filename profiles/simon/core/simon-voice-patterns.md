@@ -8,6 +8,31 @@ This document captures Simon Taylor's (Fintech Brainfood) authentic voice, analy
 
 ---
 
+## Platform Preferences & Style Choices
+
+### Hashtags: Minimal to None
+
+**Simon's preference:** Doesn't like using hashtags
+
+**Why:**
+- Feels inauthentic or "marketing-y"
+- Prefers organic reach through content quality
+- Content should speak for itself
+
+**Implementation:**
+- ❌ Don't add 5-10 hashtags as generic advice suggests
+- ✅ If absolutely necessary for discoverability, use 1-2 maximum
+- ✅ Prefer natural keywords in post text over hashtag spam
+- ✅ When research recommends hashtags, note this preference conflict
+
+**Example:**
+```
+❌ Generic advice: "Add 5-10 hashtags for reach"
+✅ Simon's approach: Write compelling content that gets shared organically
+```
+
+---
+
 ## Core Voice Characteristics
 
 ### 1. Authentic Uncertainty Over False Confidence
