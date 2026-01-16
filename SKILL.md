@@ -29,6 +29,7 @@ This skill helps you:
 
 ### Core Writing Instructions
 - [core/instructions.md](core/instructions.md) - Main social post creation framework
+- [core/learned-patterns.md](core/learned-patterns.md) - Real-world refinement patterns from actual posts
 
 ### Platform Optimization
 - [platforms/linkedin-algorithm.md](platforms/linkedin-algorithm.md) - LinkedIn 2025 algorithm tactics
@@ -70,14 +71,19 @@ Based on the request, reference the appropriate guides:
 
 **For LinkedIn Posts:**
 1. Read [core/instructions.md](core/instructions.md) for the main framework
-2. Read [platforms/linkedin-algorithm.md](platforms/linkedin-algorithm.md) for 2025 optimization
-3. Read [platforms/linkedin-growth.md](platforms/linkedin-growth.md) for posting strategy
-4. Read [writing-craft/hooks-and-structure.md](writing-craft/hooks-and-structure.md) for hook patterns
+2. Read [core/learned-patterns.md](core/learned-patterns.md) for real-world refinement patterns
+3. Read [platforms/linkedin-algorithm.md](platforms/linkedin-algorithm.md) for 2025 optimization
+4. Read [platforms/linkedin-growth.md](platforms/linkedin-growth.md) for posting strategy
+5. Read [writing-craft/hooks-and-structure.md](writing-craft/hooks-and-structure.md) for hook patterns
 
 **For Twitter/X Posts:**
 1. Read [core/instructions.md](core/instructions.md) for the main framework
-2. Read [platforms/twitter.md](platforms/twitter.md) for Twitter-specific tactics
-3. Read [writing-craft/hooks-and-structure.md](writing-craft/hooks-and-structure.md) for hook patterns
+2. Read [core/learned-patterns.md](core/learned-patterns.md) for real-world refinement patterns
+3. Read [platforms/twitter.md](platforms/twitter.md) for Twitter-specific tactics
+4. Read [writing-craft/hooks-and-structure.md](writing-craft/hooks-and-structure.md) for hook patterns
+
+**For News-Driven Posts:**
+- Read [core/learned-patterns.md](core/learned-patterns.md) for "BREAKING:" format and timely hooks
 
 **For Storytelling/Narrative Posts:**
 - Add [writing-craft/storytelling.md](writing-craft/storytelling.md) for MrBeast principles
@@ -247,8 +253,9 @@ Present the final post with:
 
 | User Request | Read These Guides |
 |-------------|-------------------|
-| "LinkedIn post about X" | core/instructions.md + platforms/linkedin-algorithm.md + writing-craft/hooks-and-structure.md |
-| "Twitter thread on Y" | core/instructions.md + platforms/twitter.md + writing-craft/hooks-and-structure.md |
+| "LinkedIn post about X" | core/instructions.md + core/learned-patterns.md + platforms/linkedin-algorithm.md + writing-craft/hooks-and-structure.md |
+| "Twitter thread on Y" | core/instructions.md + core/learned-patterns.md + platforms/twitter.md + writing-craft/hooks-and-structure.md |
+| "News-driven post" or "BREAKING:" | core/learned-patterns.md (Pattern 1) + core/instructions.md |
 | "Post with a story" | Add writing-craft/storytelling.md |
 | "Persuasive post" | Add writing-craft/psychology.md |
 | "Match FintechBrainfood tone" | Add tone/fintechbrainfood.md |
