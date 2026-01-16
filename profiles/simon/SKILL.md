@@ -8,19 +8,6 @@ allowed-tools: Read, Grep, AskUserQuestion
 
 Create scroll-stopping social media posts optimized for LinkedIn and Twitter/X using proven frameworks from top creators.
 
----
-
-## 🎯 Personalized Profiles
-
-This skill supports personalized profiles for different users. If you have a profile (see `profiles/` directory), use your profile files instead of the base skill for personalized branding, tone, and preferences.
-
-**Using a profile:**
-- Reference files from `profiles/yourname/` instead of root directory
-- Profiles extend the base skill with personal branding, image generation, and learned patterns
-- See `profiles/README.md` for details
-
----
-
 ## Quick Start
 
 This skill helps you:
@@ -43,6 +30,7 @@ This skill helps you:
 ### Core Writing Instructions
 - [core/instructions.md](core/instructions.md) - Main social post creation framework
 - [core/learned-patterns.md](core/learned-patterns.md) - Real-world refinement patterns from actual posts
+- [core/image-generation-guidelines.md](core/image-generation-guidelines.md) - Social media image creation standards
 
 ### Platform Optimization
 - [platforms/linkedin-algorithm.md](platforms/linkedin-algorithm.md) - LinkedIn 2025 algorithm tactics
@@ -217,7 +205,26 @@ Before delivering, check:
 - ❌ More than 2 emojis (and only if they earn their keep)
 - ❌ Guessing facts (leave "TK" placeholders instead)
 
-### Step 7: Deliver the Post
+### Step 7: Create Images (If Requested)
+
+If the user requests image generation or provides charts/images to combine:
+
+**Read [core/image-generation-guidelines.md](core/image-generation-guidelines.md) first**
+
+**Key requirements:**
+- ✅ Always use 16:9 landscape orientation (unless explicitly told otherwise)
+- ✅ Preserve original charts/images as much as possible
+- ✅ Keep original author logos and attribution visible
+- ✅ Add "Edited by Fintech Brainfood" in bottom right corner
+- ✅ Professional financial aesthetic
+- ✅ All text must remain readable
+
+**Common scenarios:**
+- Combining multiple charts: Use grid layout (2x2, 3x1, etc.)
+- Single chart enhancement: Add context/headline while preserving original
+- Data visualization: Maintain source styling and branding
+
+### Step 8: Deliver the Post
 
 Present the final post with:
 1. The post itself (ready to copy-paste)
@@ -225,6 +232,7 @@ Present the final post with:
 3. Platform-specific tips for posting
 4. Suggested posting time
 5. Optional: Variations or alternatives
+6. If images were created: File paths and descriptions
 
 ---
 
