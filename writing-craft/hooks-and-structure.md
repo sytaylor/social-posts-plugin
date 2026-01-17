@@ -433,4 +433,241 @@ Use this before publishing:
 
 ---
 
+## Advanced Hook Patterns (From Successful Creators)
+
+Based on analysis of high-performing content creators (see research files for detailed analysis).
+
+### Pattern 8: Person-Focused Narrative
+```
+This is [Name]. [Context]. [Surprising outcome].
+```
+
+**Example:**
+```
+This is Oliver Daemen. In 2021, he became the youngest person to go to space.
+
+Now he's [surprising next move].
+```
+
+**Why it works:**
+- Immediate human connection
+- Concrete (specific person, not abstract concept)
+- Story-driven (we're wired for narratives)
+- Creates curiosity about the person
+
+**When to use:**
+- Profiling founders, executives, companies
+- Highlighting unexpected career moves
+- Illustrating broader trends through specific people
+
+**Tips:**
+- Use real names (specificity beats abstraction)
+- Include year/context for credibility
+- Save the surprising twist for line 3-4
+
+---
+
+### Pattern 9: Stakes-First Framing
+```
+[Company]'s [specific action] to [outcome].
+
+Maybe this is about [bigger pattern].
+```
+
+**Example:**
+```
+BitMine just invested $200M into MrBeast's company.
+
+Maybe this is about crypto growing up.
+```
+
+**Why it works:**
+- Positions observation as significant moment
+- Connects specific news to broader trend
+- Creates urgency (historical significance)
+- Speculative "maybe" invites engagement
+
+**When to use:**
+- When specific news illustrates broader shift
+- Connecting dots between seemingly unrelated events
+- Framing tactical moves as strategic signals
+
+**Tips:**
+- Always include specific dollar amounts
+- Use company names (institutional credibility)
+- Frame with "maybe" to invite discussion
+- End with "or it's [alternative interpretation]"
+
+---
+
+### Pattern 10: Exclamatory Emotion Hook
+```
+[Emotion word]! [Specific event/outcome]
+```
+
+**Example:**
+```
+Wild! The world's largest corporate Ether holder just invested $200M in MrBeast's company.
+```
+
+**Why it works:**
+- Creates immediate emotional reaction
+- Sets expectation for surprising content
+- Simple, conversational language
+- Grabs attention in crowded feed
+
+**When to use:**
+- When you're genuinely surprised
+- Breaking news with unexpected angles
+- Countering reader expectations
+
+**Caution:**
+- Don't overuse (loses impact)
+- Must feel authentic to your voice
+- Only use when you genuinely feel that emotion
+- Can feel gimmicky if forced
+
+**Emotion vocabulary options:**
+- "Wild!" (unexpected)
+- "Fascinating!" (intellectually interesting)
+- "That was quick!" (speed/timing)
+- Avoid: "This is insane!", "OMG!", "Wow!" (can feel generic)
+
+---
+
+### Pattern 11: Dollar Amount Specificity
+```
+[Company] [action verb] [specific $amount] into/from [what]
+```
+
+**Example:**
+```
+Revolut CEO wants to revolutionize VC with $250M AI-Powered Fund.
+```
+
+**Why it works:**
+- Concrete > abstract
+- Numbers make claims verifiable
+- Shows scale/stakes
+- Attracts finance-oriented audience
+
+**When to use:**
+- Any financial transaction or investment
+- Fundraising, acquisitions, revenue
+- Market cap changes
+- Valuation news
+
+**Tips:**
+- ALWAYS include dollar amounts when available
+- Use M/B abbreviations ($250M, $1.2B)
+- Pair with action verbs ("invested", "raised", "acquired")
+- Add institutional names for credibility
+
+---
+
+### Pattern 12: Action Verbs with Stakes
+```
+[Entity]'s [action verb] to [outcome]
+```
+
+**Example:**
+```
+Sony's stablecoin gambit to reshape entertainment payments.
+```
+
+**Action verbs to consider:**
+- "gambit to reshape" (strategic risk)
+- "claims its first victim" (competitive)
+- "unlocks" (enables something new)
+- "unveils" (reveals)
+- "to reshape/redefine/transform" (change-oriented)
+
+**Why it works:**
+- Creates movement (not static observation)
+- Implies strategic intent
+- Shows cause → effect
+- More interesting than "announces" or "launches"
+
+**When to use:**
+- Major strategic moves
+- Product launches with implications
+- Competitive dynamics
+- Market shifts
+
+**Tips:**
+- Avoid generic verbs: "releases", "announces", "says"
+- Choose verbs that imply stakes: "gambit", "bet", "claims"
+- Match verb to the stakes level
+
+---
+
+## Hook Testing Checklist v2.0
+
+Updated checklist incorporating advanced patterns:
+
+✅ **Does my hook create curiosity?**
+- Does it raise a question in the reader's mind?
+- Is there a clear information gap?
+
+✅ **Is it specific?**
+- Names, numbers, dollar amounts?
+- Concrete details vs generalities?
+
+✅ **Would I stop scrolling for this?**
+- Be honest with yourself
+- Test: Would this work if a stranger posted it?
+
+✅ **Does it promise value?**
+- Is it clear what they'll learn?
+- Is the payoff worth their time?
+
+✅ **Does it match my authentic voice?**
+- Would I say this out loud to a friend?
+- Or does it feel like a "growth hack"?
+
+✅ **Specificity check:**
+- ✅ Company names, not "a company"
+- ✅ "$200M", not "a lot of money"
+- ✅ "2026", not "recently"
+- ✅ Person's name, not "someone"
+
+---
+
+## Hook Anti-Patterns to Avoid
+
+### ❌ Clickbait Without Payoff
+**Bad:** "You won't BELIEVE what happened next!"
+**Why:** Creates expectation you can't deliver
+**Better:** Be specific about what they'll learn
+
+### ❌ Exclamatory Overload
+**Bad:** "OMG! This is INSANE! You HAVE to see this! 🤯🤯🤯"
+**Why:** Feels desperate, damages credibility
+**Better:** One emotion marker maximum
+
+### ❌ Vague Superlatives
+**Bad:** "This will change everything!"
+**Why:** No specificity, sounds like hype
+**Better:** "This could reshape [specific market/behavior]"
+
+### ❌ Burying the Hook
+**Bad:** Starting with context before the surprising part
+**Why:** Reader scrolls past before reaching hook
+**Better:** Front-load the "wait, what?" moment
+
+### ❌ Generic Questions
+**Bad:** "What do you think about AI?"
+**Why:** Too broad, no clear discussion anchor
+**Better:** "Would you trust an AI agent with your $250k investment decision?"
+
+---
+
 **Master the hook, and you've won half the battle. The rest is just delivering on the promise you made.**
+
+---
+
+**Research sources:**
+- Linas Beliūnas hook analysis (2026-01-17) - see `profiles/simon/research/linas-beliunas-hook-analysis-2026-01-17.md`
+- Julian Shapiro framework (adapted for social media)
+
+**Last Updated:** 2026-01-17

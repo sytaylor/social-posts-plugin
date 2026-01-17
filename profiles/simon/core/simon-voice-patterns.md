@@ -385,5 +385,198 @@ This document should evolve as Simon's voice develops. After each post:
 
 ---
 
-**Last Updated:** January 16, 2026
+## Hook Patterns Adapted for Simon
+
+Based on research of successful FinTech creators (see `research/linas-beliunas-hook-analysis-2026-01-17.md`).
+
+### Hook Formula 1: Person-Focused Analytical
+**Structure:** `This is [Name]. [Context]. [Surprising thing]. But here's what's interesting...`
+
+**Simon's Adaptation:**
+```
+This is [Name]. [Role/year context].
+
+[Surprising action/outcome].
+
+But here's what's interesting: [analytical observation]
+
+Maybe it's [speculation]. Or it's [alternative].
+```
+
+**Example:**
+```
+This is Oliver Daemen. In 2021, he became the youngest person to go to space.
+
+Now he's investing in crypto infrastructure.
+
+But here's what's interesting: He's not buying tokens. He's buying equity in the companies building the rails.
+
+Maybe it's about the market maturing. Or it's another sign that crypto is finally growing up.
+```
+
+**Why it works for Simon:**
+- ✅ Starts with concrete person/company (specificity)
+- ✅ Analytical layer ("here's what's interesting")
+- ✅ Both-sides thinking ("Maybe... Or...")
+- ✅ Maintains humility while offering insight
+
+---
+
+### Hook Formula 2: Stakes-First with Dollar Specificity
+**Structure:** `[Company] just [action verb] [$ amount] into [what]. Maybe this is about [pattern].`
+
+**Simon's Adaptation:**
+```
+[Company name, ticker] just [invested/acquired/raised] [$X amount] [into/from] [what/who].
+
+Maybe this is about [bigger pattern Simon sees].
+
+Or it's [alternative interpretation].
+```
+
+**Example:**
+```
+BitMine Immersion Technologies (BMNR), a public company set up to acquire and hold ETH,
+just invested $200M into MrBeast's company.
+
+Maybe this is about crypto growing up.
+
+Or it's 2026 weirdness.
+```
+
+**Why it works for Simon:**
+- ✅ Dollar amount specificity (Simon's strength)
+- ✅ Company context (tickers, structure)
+- ✅ Pattern recognition framing
+- ✅ "Maybe" preserves humble speculation
+- ✅ "Or it's..." shows both-sides thinking
+
+---
+
+### Hook Formula 3: Pattern Recognition with Humility
+**Structure:** `[Observation]. I've been thinking about [question]. Maybe [speculation].`
+
+**Simon's Adaptation:**
+```
+[Observation about trend/pattern].
+
+[Genuine question - "What if..." or "But why..."]
+
+Maybe it's [speculation]. Maybe it's [alternative].
+
+I'm stumped. But here's what I think might be happening...
+```
+
+**Example:**
+```
+Crypto has been trying to do creators forever—tokens, NFTs, DAOs.
+
+None of it worked.
+
+What if the answer wasn't trying to reinvent creators?
+
+Maybe the answer all along was to just... invest in them.
+```
+
+**Why it works for Simon:**
+- ✅ Starts with specific observation
+- ✅ Asks genuine question (not rhetorical)
+- ✅ Multiple "maybe" preserves speculation
+- ✅ Can include "I'm stumped" for authenticity
+- ✅ Transitions to analysis
+
+---
+
+### Hook Formula 4: Wild Moment (Use Sparingly)
+**Structure:** `[Emotion word]! [Specific surprising thing]`
+
+**Simon's Adaptation:**
+```
+[Wild/Fascinating]! [Specific company/person] just [surprising action with $ amount].
+
+[Context that makes it even more surprising]
+
+[Simon's analytical take]
+```
+
+**Example:**
+```
+Wild! The world's largest corporate Ether holder just invested $200M in MrBeast's company.
+
+This is BitMine Immersion Technologies (BMNR), a public company set up to acquire and hold ETH.
+
+Maybe this signals crypto-native funds investing in creator IP.
+Or it's the most 2026 thing I'll see all year.
+```
+
+**Why it works for Simon:**
+- ✅ "Wild!" fits Simon's occasional surprise
+- ✅ Immediately followed by specifics (company, ticker, amount)
+- ✅ Context adds credibility
+- ✅ Analytical framing maintains voice
+- ⚠️ Use rarely - only when genuinely surprising
+
+**When NOT to use:**
+- ❌ "This is insane!" (too hyperbolic for Simon)
+- ❌ Multiple exclamation points
+- ❌ When uncertainty is the real story (stick with "I'm stumped")
+
+---
+
+## Hook Optimization Guidelines for Simon
+
+### ✅ Always Include:
+1. **Dollar amounts** - "$200M", not "a lot"
+2. **Company details** - Name, ticker (if public), structure
+3. **Specific context** - Year, role, relevant background
+4. **Your analytical layer** - "Here's what's interesting..."
+5. **Both-sides thinking** - "Maybe... Or..."
+
+### ✅ Consider Adding:
+1. **Genuine questions** - "But why Bitmine as the investor?"
+2. **Pattern framing** - "Maybe this is about [trend] growing up"
+3. **Stakes/implications** - "Watch for more [X] doing [Y]"
+4. **Humble speculation** - "I'm stumped, but here's what I think..."
+
+### ❌ Avoid:
+1. **Generic excitement** - "OMG!", "This is INSANE!!!"
+2. **Excessive emojis** - Keep to 0-1 per post
+3. **Vague superlatives** - "the best", "amazing", "incredible"
+4. **Burying the hook** - Put "wait, what?" moment first
+5. **False confidence** - Keep "maybe" and "or it's..." if uncertain
+
+---
+
+## Hook Testing for Simon's Voice
+
+Before publishing, ask:
+
+✅ **Specificity check:**
+- [ ] Company names, not "a company"
+- [ ] Dollar amounts with M/B notation
+- [ ] Tickers (if public company)
+- [ ] Years, roles, specific context
+
+✅ **Voice authenticity check:**
+- [ ] Would Simon say this to a colleague?
+- [ ] Does it preserve intellectual honesty?
+- [ ] Are genuine questions genuine (not rhetorical)?
+- [ ] Is "maybe" used for actual speculation?
+
+✅ **Performance check:**
+- [ ] Hook in first 210 characters (LinkedIn "see more")
+- [ ] "Wait, what?" moment comes first
+- [ ] Specific enough to be interesting
+- [ ] Promises clear value/insight
+
+✅ **Balance check:**
+- [ ] Still sounds like Simon?
+- [ ] Clear what he's saying?
+- [ ] Scannable and punchy?
+
+---
+
+**Last Updated:** January 17, 2026 (Added hook formulas from Linas Beliūnas research)
 **Next Review:** After 10 more posts to capture emerging patterns
+
+**Research Reference:** See `research/linas-beliunas-hook-analysis-2026-01-17.md` for detailed analysis
