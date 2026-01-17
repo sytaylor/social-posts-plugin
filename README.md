@@ -59,6 +59,28 @@ mkdir -p .claude/skills
 cp -r /path/to/social-posts-plugin/skills/social-posts .claude/skills/
 ```
 
+### Optional: Shared Best Practices (Advanced)
+
+This plugin includes an optional git submodule (`.shared/`) that references the [brainfood-social-best-practices](https://github.com/sytaylor/brainfood-social-best-practices) repository.
+
+**The plugin works perfectly without this submodule** - it's purely for keeping best practices in sync across multiple projects.
+
+To initialize the submodule (optional):
+```bash
+git submodule update --init --recursive
+```
+
+To update to latest best practices (optional):
+```bash
+cd .shared
+git pull origin main
+cd ..
+git add .shared
+git commit -m "Update best practices"
+```
+
+**Note:** The submodule is located in `.shared/` (hidden directory) and is not required for the skill to function.
+
 ## Quick Start
 
 Once installed, simply ask Claude to create posts:
