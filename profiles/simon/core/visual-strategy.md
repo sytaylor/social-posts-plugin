@@ -42,6 +42,30 @@
 
 ---
 
+## Critical Rule: Recognizability > Company Hierarchy
+
+**ALWAYS prioritize the most recognizable/visual element:**
+
+✅ **Use celebrity/well-known person over unknown company**
+- Example: MrBeast (300M subscribers) > BitMine (unknown)
+- Example: Sam Altman (household name) > Obscure AI startup
+
+✅ **Use visual product over abstract concept**
+- Example: Tesla Cybertruck photo > Tesla logo
+- Example: ChatGPT interface > OpenAI logo
+
+✅ **Use person over logo when person is the story**
+- Example: Founder profile → Their face
+- Example: "This is [Name]" → Their headshot
+
+**Decision tree:**
+1. Is there a celebrity/well-known person? → Use their image
+2. Is there a visual product/interface? → Use screenshot
+3. Is it about a company move? → Use logo + context
+4. Is it a dollar amount story? → Use logos + number
+
+---
+
 ## Section 1: Person-Focused Visuals
 
 ### Format 1A: Quote Over Face (McKinsey Style)
@@ -50,6 +74,7 @@
 - "This is [Name]" posts
 - Profiling founder/executive
 - Highlighting specific insight
+- **ESPECIALLY when person is more recognizable than company**
 
 **Structure:**
 ```
@@ -289,13 +314,22 @@ Color scheme:
 - Ensure high contrast for readability
 ```
 
-**Example:**
+**Example (CORRECTED):**
 ```
-[BitMine logo]  +  [MrBeast logo]
+Primary image: MrBeast photo (recognizable celebrity)
+Overlay: "$200M Investment from BitMine"
+Bottom: Context line: "Crypto → Creator Economy"
 
-$200M
+Why MrBeast not BitMine?
+- MrBeast = 300M subscribers, instantly recognizable
+- BitMine = Unknown company, no visual recognition
+- Rule: Celebrity/recognizable > Unknown company
+```
 
-Investment in Creator IP
+**Alternative format:**
+```
+[MrBeast photo - 60%] + [BitMine logo small - 20%]
+[Dollar amount overlay: "$200M"]
 ```
 
 ---
@@ -706,36 +740,37 @@ just put $200M into MrBeast's company.
 Not tokens. Not NFTs. Equity.
 ```
 
-**Visual Strategy:**
+**Visual Strategy (CORRECTED):**
 ```
-Format: Logos + Dollar Amount
+Format: Person + Dollar Amount (MrBeast is the visual anchor)
 
-Top: BitMine logo + MrBeast logo
-Center: $200M (huge, bold font)
-Bottom: "Equity Investment in Creator IP"
+Primary: MrBeast photo (large, recognizable)
+Overlay: "$200M" (huge, bold font)
+Secondary: "Investment from BitMine (BMNR)" (smaller text)
+Bottom: "Crypto → Creator Economy"
 
 Source:
-- BitMine logo: Clearbit or company website
-- MrBeast logo: YouTube channel art OR photo
-- Design: Canva, center alignment
-- Colors: Company brand colors or neutral
+- MrBeast photo: YouTube/social media (high-res)
+- BitMine logo: Small, secondary (Clearbit or website)
+- Design: Canva, MrBeast as hero image
+- Why: MrBeast (300M followers) >> BitMine (unknown company)
 ```
 
 **Alternative Format:**
 ```
 Venn Diagram
 
-Left circle: Crypto (with Bitcoin icon)
-Right circle: Creator Economy (with camera icon)
-Overlap: "$200M Equity Investment"
+Left circle: Crypto 🪙 (with BitMine logo small)
+Right circle: Creator Economy 🎥 (with MrBeast photo)
+Overlap: "$200M Equity Investment" (highlighted)
 ```
 
-**Why both work:**
-- Logos = instant recognition
+**Why MrBeast-first works better:**
+- MrBeast = instant recognition, stops scroll
 - $200M = clear stakes
-- "Equity" emphasized visually
-- Convergence diagram shows the pattern
-- Either is shareable, clean, professional
+- BitMine context = secondary but present
+- Celebrity face > unknown company logo
+- Recognizability drives engagement
 
 ---
 
