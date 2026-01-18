@@ -226,6 +226,146 @@ REQUIREMENTS:
 
 ---
 
+## Linas Beliūnas Style (Exec Photo + Red Text Box)
+
+### Format Overview
+
+**When to use:** Viral news stories about CEOs, executives, or shocking company news
+
+**Visual style:** Professional exec photo with attention-grabbing red-bordered text box overlay
+
+**Inspiration:** Linas Beliūnas' viral LinkedIn posts (600k+ followers)
+
+### Layout Specifications
+
+**Image structure:**
+- Background: Professional executive photo (fills entire 16:9 frame)
+- Overlay: Red-bordered white text box in bottom area
+
+**CRITICAL: 15% Padding Rule**
+- Padding from LEFT edge: 15% of image width
+- Padding from RIGHT edge: 15% of image width
+- Padding from BOTTOM edge: 15% of image height
+- This creates breathing room and professional appearance
+
+**Dimensions (for 1920x1080 image):**
+- Horizontal padding: 288px from left and right edges
+- Bottom padding: 162px from bottom edge
+- Text box height: ~25-30% of image height
+
+### Design Elements
+
+**Red Border:**
+- Color: Bright red (#FF0000)
+- Thickness: 12px
+- Creates warning/attention-grabbing effect
+
+**White Text Box:**
+- Background: White (#FFFFFF)
+- Inside the red border
+- Contains 2-4 lines of shocking text
+
+**Text Content:**
+- Color: Black (#000000)
+- Font: Bold sans-serif (Helvetica Bold, Arial Bold)
+- Size: 52-56pt for readability
+- Alignment: Centered within white box
+- Line spacing: 65-70px between lines
+
+**Fintech Brainfood Credit:**
+- Location: Bottom right corner of ENTIRE IMAGE (not inside text box)
+- Text: "Edited by Fintech Brainfood"
+- Color: Brain Pink (#E84B87)
+- Size: Small (18pt)
+
+### Example Scenarios
+
+**Scenario 1: CEO with shocking financial news**
+```
+Background: Sam Altman worried expression
+Text box: "OpenAI projected to burn $8B in 2025,
+          rising to $40B by 2028 - could run
+          out of cash by mid-2027"
+```
+
+**Scenario 2: Executive with company milestone**
+```
+Background: CEO professional photo
+Text box: "Company raises $500M Series D at
+          $5B valuation - 10x growth in
+          18 months"
+```
+
+### Python Implementation Reference
+
+For programmatic generation using PIL/Pillow:
+
+```python
+# Padding calculations
+padding_horizontal = int(target_width * 0.15)  # 15% from left/right
+padding_bottom = int(target_height * 0.15)      # 15% from bottom
+
+# Box dimensions
+box_left = padding_horizontal
+box_right = target_width - padding_horizontal
+box_bottom = target_height - padding_bottom
+box_top = box_bottom - box_height  # box_height = ~25% of image height
+
+# Draw red border (12px thick)
+draw.rectangle([box_left, box_top, box_right, box_bottom], fill=RED)
+
+# Draw white inner box
+border_thickness = 12
+draw.rectangle(
+    [box_left + border_thickness, box_top + border_thickness,
+     box_right - border_thickness, box_bottom - border_thickness],
+    fill=WHITE
+)
+```
+
+### Quality Checklist
+
+✅ **Composition:**
+- [ ] Executive photo is high-quality and professional
+- [ ] Face is clearly visible and recognizable
+- [ ] Expression matches the news tone (shocked, worried, excited)
+- [ ] 16:9 landscape orientation
+
+✅ **Text Box:**
+- [ ] 15% padding from left, right, and bottom edges
+- [ ] Red border is prominent (12px thick)
+- [ ] White background provides high contrast
+- [ ] Text is black, bold, and highly readable
+
+✅ **Text Content:**
+- [ ] 2-4 lines maximum
+- [ ] Font size: 52-56pt minimum
+- [ ] Centered within white box
+- [ ] Line spacing: 65-70px
+- [ ] Contains shocking/specific numbers or facts
+
+✅ **Branding:**
+- [ ] "Edited by Fintech Brainfood" in bottom-right of IMAGE
+- [ ] Small size (18pt)
+- [ ] Brain Pink color (#E84B87)
+- [ ] Does not interfere with text box
+
+### Common Mistakes - Linas Style
+
+❌ **No padding** - Text box touches edges (looks cramped)
+✅ **15% padding** - Professional breathing room
+
+❌ **Text box too tall** - Covers too much of photo
+✅ **25-30% height** - Balances photo and text
+
+❌ **Thin red border** - Not attention-grabbing enough
+✅ **12px thick border** - Creates impact
+
+❌ **Credit inside text box** - Competes with main message
+✅ **Credit on image** - Separate from text box
+
+---
+
 ## Common Mistakes to Avoid
 
 ❌ **CRITICAL: Recreating the logo instead of using the actual file** - Always use the provided logo image, never generate a new one
