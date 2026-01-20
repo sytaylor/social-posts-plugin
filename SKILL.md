@@ -40,27 +40,35 @@ This skill helps you:
 
 ## Reference Materials
 
-### Core Writing Instructions
+### Core Writing Instructions (ALWAYS LOAD)
 - [core/instructions.md](core/instructions.md) - Main social post creation framework
-- [core/learned-patterns.md](core/learned-patterns.md) - Real-world refinement patterns from actual posts
+- [.shared/core/learned-patterns.md](.shared/core/learned-patterns.md) - Universal refinement patterns that work for everyone
 
-### Platform Optimization
+### Platform Optimization (HIGH-FREQUENCY)
 - [platforms/linkedin-algorithm.md](platforms/linkedin-algorithm.md) - LinkedIn 2025 algorithm tactics
-- [platforms/linkedin-growth.md](platforms/linkedin-growth.md) - LinkedIn posting strategy
-- [platforms/twitter.md](platforms/twitter.md) - Twitter/X best practices
+- [platforms/twitter.md](platforms/twitter.md) - Twitter/X writing best practices
 
-### Writing Craft
-- [writing-craft/hooks-and-structure.md](writing-craft/hooks-and-structure.md) - Julian Shapiro's writing principles
-- [writing-craft/storytelling.md](writing-craft/storytelling.md) - MrBeast's content principles
-- [writing-craft/psychology.md](writing-craft/psychology.md) - Marketing psychology frameworks
+### Advanced Platform Materials (CONDITIONAL - Load only when requested)
+- [.shared/platforms/linkedin-growth.md](.shared/platforms/linkedin-growth.md) - LinkedIn posting strategy (ONLY if user asks about growth/strategy)
+- [.shared/platforms/twitter-algorithm-deep-dive.md](.shared/platforms/twitter-algorithm-deep-dive.md) - X algorithm ranking signals (ONLY if user wants algorithm optimization)
 
-### Tone-of-Voice
-- [tone/fintechbrainfood.md](tone/fintechbrainfood.md) - Example: FintechBrainfood style
-- [tone/custom-guide.md](tone/custom-guide.md) - Template for creating your own
+### Writing Craft (CONDITIONAL - Load only when needed)
+- [.shared/writing-craft/hooks-and-structure.md](.shared/writing-craft/hooks-and-structure.md) - Julian Shapiro's writing principles (ONLY if struggling with hooks)
+- [.shared/writing-craft/storytelling.md](.shared/writing-craft/storytelling.md) - MrBeast's content principles (ONLY for narrative/story posts)
+- [.shared/writing-craft/psychology.md](.shared/writing-craft/psychology.md) - Marketing psychology frameworks (ONLY for persuasion posts)
 
-### Examples
-- [examples/linkedin-examples.md](examples/linkedin-examples.md) - Reference LinkedIn posts
-- [examples/twitter-examples.md](examples/twitter-examples.md) - Reference Twitter/X posts
+### Advanced Materials (CONDITIONAL - Load only when needed)
+- [.shared/hooks/universal-hook-patterns.md](.shared/hooks/universal-hook-patterns.md) - Hook variations (ONLY if user requests multiple hook options)
+- [.shared/story-evaluation/3-filter-system.md](.shared/story-evaluation/3-filter-system.md) - Content filtering framework (ONLY for story evaluation)
+- [.shared/visual-strategy/image-sourcing-guide.md](.shared/visual-strategy/image-sourcing-guide.md) - Image selection guide (ONLY when creating visual content)
+
+### Tone-of-Voice (CONDITIONAL)
+- [.shared/tone/fintechbrainfood.md](.shared/tone/fintechbrainfood.md) - Example: FintechBrainfood style (ONLY if user requests this specific tone)
+- [.shared/tone/custom-guide.md](.shared/tone/custom-guide.md) - Template for creating your own
+
+### Examples (CONDITIONAL)
+- [.shared/examples/linkedin-examples.md](.shared/examples/linkedin-examples.md) - Reference LinkedIn posts (ONLY if user asks for examples)
+- [.shared/examples/twitter-examples.md](.shared/examples/twitter-examples.md) - Reference Twitter/X posts (ONLY if user asks for examples)
 
 ---
 
@@ -78,31 +86,58 @@ When a user asks you to create a social post, first gather:
 
 Use `AskUserQuestion` if any of these are unclear.
 
-### Step 2: Select the Right Framework
+### Step 2: Select the Right Framework (Conditional Loading)
 
-Based on the request, reference the appropriate guides:
+Based on the request, reference the appropriate guides. **Load only what's needed to keep context efficient.**
 
 **For LinkedIn Posts:**
-1. Read [core/instructions.md](core/instructions.md) for the main framework
-2. Read [core/learned-patterns.md](core/learned-patterns.md) for real-world refinement patterns
-3. Read [platforms/linkedin-algorithm.md](platforms/linkedin-algorithm.md) for 2025 optimization
-4. Read [platforms/linkedin-growth.md](platforms/linkedin-growth.md) for posting strategy
-5. Read [writing-craft/hooks-and-structure.md](writing-craft/hooks-and-structure.md) for hook patterns
+
+*ALWAYS read:*
+1. [core/instructions.md](core/instructions.md) - Main framework
+2. [.shared/core/learned-patterns.md](.shared/core/learned-patterns.md) - Universal patterns
+3. [platforms/linkedin-algorithm.md](platforms/linkedin-algorithm.md) - LinkedIn 2025 algorithm tactics
+
+*CONDITIONALLY read (only when needed):*
+- [.shared/platforms/linkedin-growth.md](.shared/platforms/linkedin-growth.md) - ONLY if user asks about posting strategy or growth
+- [.shared/writing-craft/hooks-and-structure.md](.shared/writing-craft/hooks-and-structure.md) - ONLY if struggling with hooks
+- [.shared/writing-craft/storytelling.md](.shared/writing-craft/storytelling.md) - ONLY if post is narrative/story-driven
+- [.shared/writing-craft/psychology.md](.shared/writing-craft/psychology.md) - ONLY if post needs persuasion tactics
 
 **For Twitter/X Posts:**
-1. Read [core/instructions.md](core/instructions.md) for the main framework
-2. Read [core/learned-patterns.md](core/learned-patterns.md) for real-world refinement patterns
-3. Read [platforms/twitter.md](platforms/twitter.md) for Twitter-specific tactics
-4. Read [writing-craft/hooks-and-structure.md](writing-craft/hooks-and-structure.md) for hook patterns
+
+*ALWAYS read:*
+1. [core/instructions.md](core/instructions.md) - Main framework
+2. [.shared/core/learned-patterns.md](.shared/core/learned-patterns.md) - Universal patterns
+3. [platforms/twitter.md](platforms/twitter.md) - Twitter writing tactics
+
+*THEN ask the user:*
+
+**"Would you like me to optimize this for the X algorithm (2025)? This adds detailed ranking signals and engagement tactics based on the actual X algorithm source code."**
+
+- If YES → Read [.shared/platforms/twitter-algorithm-deep-dive.md](.shared/platforms/twitter-algorithm-deep-dive.md)
+  - Focus on conversation multiplier (75x for replies that get engagement)
+  - Include 30-minute engagement checklist
+  - Optimize for native media (10x video advantage)
+
+- If NO → Skip algorithm deep dive, use standard Twitter writing tactics
+
+**When to recommend algorithm optimization:**
+- User wants to maximize reach/engagement
+- High-stakes content (product launch, important announcement)
+- User explicitly mentions "algorithm", "optimization", or "engagement"
+
+*CONDITIONALLY read (only when needed):*
+- [.shared/writing-craft/hooks-and-structure.md](.shared/writing-craft/hooks-and-structure.md) - ONLY if struggling with hooks
+- [.shared/hooks/universal-hook-patterns.md](.shared/hooks/universal-hook-patterns.md) - ONLY if user requests hook variations
 
 **For News-Driven Posts:**
-- Read [core/learned-patterns.md](core/learned-patterns.md) for "BREAKING:" format and timely hooks
+- [.shared/core/learned-patterns.md](.shared/core/learned-patterns.md) already loaded (Pattern 1: "BREAKING:" format)
 
 **For Storytelling/Narrative Posts:**
-- Add [writing-craft/storytelling.md](writing-craft/storytelling.md) for MrBeast principles
+- Add [.shared/writing-craft/storytelling.md](.shared/writing-craft/storytelling.md) for MrBeast principles
 
 **For Marketing/Persuasion:**
-- Add [writing-craft/psychology.md](writing-craft/psychology.md) for psychological frameworks
+- Add [.shared/writing-craft/psychology.md](.shared/writing-craft/psychology.md) for psychological frameworks
 
 ### Step 3: Apply Tone-of-Voice
 
@@ -239,14 +274,17 @@ Present the final post with:
 2. ✅ Topic: AI feature launch
 3. ❓ Ask: "What does this feature do? Who's it for? What's the wow factor?"
 4. ❓ Ask: "What tone? Professional thought leadership or conversational hype?"
-5. Read core/instructions.md for framework
-6. Read platforms/linkedin-algorithm.md for optimization
-7. Read writing-craft/hooks-and-structure.md for hook patterns
-8. Apply tone (default or custom)
-9. Write post following LinkedIn structure
-10. Optimize for algorithm
-11. Review against guardrails
-12. Deliver with posting tips
+5. Read core/instructions.md for framework (ALWAYS)
+6. Read .shared/core/learned-patterns.md for universal patterns (ALWAYS)
+7. Read platforms/linkedin-algorithm.md for optimization (ALWAYS for LinkedIn)
+8. SKIP writing-craft/hooks-and-structure.md (only if struggling - save tokens)
+9. Apply tone (default or custom)
+10. Write post following LinkedIn structure
+11. Optimize for algorithm
+12. Review against guardrails
+13. Deliver with posting tips
+
+**Token Usage:** ~10K tokens (efficient loading) instead of ~30K tokens (loading everything)
 
 ---
 
@@ -264,23 +302,28 @@ Present the final post with:
 
 ## Quick Reference: When to Use What
 
-| User Request | Read These Guides |
+| User Request | Read These Files (Efficient Loading) |
 |-------------|-------------------|
-| "LinkedIn post about X" | core/instructions.md + core/learned-patterns.md + platforms/linkedin-algorithm.md + writing-craft/hooks-and-structure.md |
-| "Twitter thread on Y" | core/instructions.md + core/learned-patterns.md + platforms/twitter.md + writing-craft/hooks-and-structure.md |
-| "News-driven post" or "BREAKING:" | core/learned-patterns.md (Pattern 1) + core/instructions.md |
-| "Post with a story" | Add writing-craft/storytelling.md |
-| "Persuasive post" | Add writing-craft/psychology.md |
-| "Match FintechBrainfood tone" | Add tone/fintechbrainfood.md |
+| "LinkedIn post about X" | core/instructions.md + .shared/core/learned-patterns.md + platforms/linkedin-algorithm.md |
+| "LinkedIn growth strategy" | Add .shared/platforms/linkedin-growth.md |
+| "Twitter thread on Y" | core/instructions.md + .shared/core/learned-patterns.md + platforms/twitter.md + (ASK: algorithm optimization?) |
+| "Optimize for X algorithm" | Add .shared/platforms/twitter-algorithm-deep-dive.md |
+| "News-driven post" or "BREAKING:" | .shared/core/learned-patterns.md (Pattern 1 already loaded) + core/instructions.md |
+| "Post with a story" | Add .shared/writing-craft/storytelling.md |
+| "Persuasive post" | Add .shared/writing-craft/psychology.md |
+| "Need better hooks" | Add .shared/writing-craft/hooks-and-structure.md OR .shared/hooks/universal-hook-patterns.md |
+| "Match FintechBrainfood tone" | Add .shared/tone/fintechbrainfood.md |
 | "Custom tone" | Quiz user OR ask for examples |
+
+**Efficiency Note:** By loading only what's needed, typical posts use ~10-12K tokens instead of ~30K tokens. Ask before loading heavy materials like algorithm deep dives.
 
 ---
 
 ## Advanced: Creating a Custom Tone Guide
 
-If a user wants to save their custom tone for reuse, guide them to create a tone guide using [tone/custom-guide.md](tone/custom-guide.md) as a template.
+If a user wants to save their custom tone for reuse, guide them to create a tone guide using [.shared/tone/custom-guide.md](.shared/tone/custom-guide.md) as a template.
 
-Store it as: `tone/[name]-custom.md`
+Store it in their profile: `profiles/[name]/tone/[name]-custom.md`
 
 This becomes part of their personal skill reference library.
 

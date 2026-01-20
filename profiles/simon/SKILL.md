@@ -27,28 +27,44 @@ This skill helps you:
 
 ## Reference Materials
 
-### Core Writing Instructions
-- [core/instructions.md](core/instructions.md) - Main social post creation framework
-- [core/learned-patterns.md](core/learned-patterns.md) - Real-world refinement patterns from actual posts
-- [core/image-generation-guidelines.md](core/image-generation-guidelines.md) - Social media image creation standards
+### Simon's Personal Voice & Patterns (ALWAYS LOAD)
+- [core/simon-voice-patterns.md](core/simon-voice-patterns.md) - Simon's unique writing voice
+- [core/simon-learned-patterns.md](core/simon-learned-patterns.md) - Simon's personal discoveries (living document - Simon actively updates this)
+- [core/image-generation-guidelines.md](core/image-generation-guidelines.md) - Simon's image creation standards (ONLY when generating images)
 
-### Platform Optimization
-- [platforms/linkedin-algorithm.md](platforms/linkedin-algorithm.md) - LinkedIn 2025 algorithm tactics
-- [platforms/linkedin-growth.md](platforms/linkedin-growth.md) - LinkedIn posting strategy
-- [platforms/twitter.md](platforms/twitter.md) - Twitter/X best practices
+### Core Writing Instructions (ALWAYS LOAD)
+- [../../core/instructions.md](../../core/instructions.md) - Universal framework for all posts
+- [../../.shared/core/learned-patterns.md](../../.shared/core/learned-patterns.md) - Universal patterns that work for everyone
 
-### Writing Craft
-- [writing-craft/hooks-and-structure.md](writing-craft/hooks-and-structure.md) - Julian Shapiro's writing principles
-- [writing-craft/storytelling.md](writing-craft/storytelling.md) - MrBeast's content principles
-- [writing-craft/psychology.md](writing-craft/psychology.md) - Marketing psychology frameworks
+**Two-Tier Learning System:**
+- Universal patterns (../../.shared/core/learned-patterns.md) = Validated patterns for everyone
+- Simon's patterns (core/simon-learned-patterns.md) = Simon's personal experiments and discoveries
+- **ALWAYS load BOTH** to get complete context: proven tactics + Simon's learnings
 
-### Tone-of-Voice
-- [tone/fintechbrainfood.md](tone/fintechbrainfood.md) - Example: FintechBrainfood style
-- [tone/custom-guide.md](tone/custom-guide.md) - Template for creating your own
+### Platform Optimization (HIGH-FREQUENCY)
+- [../../platforms/linkedin-algorithm.md](../../platforms/linkedin-algorithm.md) - LinkedIn 2025 algorithm tactics
+- [../../platforms/twitter.md](../../platforms/twitter.md) - Twitter/X writing best practices
 
-### Examples
-- [examples/linkedin-examples.md](examples/linkedin-examples.md) - Reference LinkedIn posts
-- [examples/twitter-examples.md](examples/twitter-examples.md) - Reference Twitter/X posts
+### Advanced Platform Materials (CONDITIONAL)
+- [../../.shared/platforms/linkedin-growth.md](../../.shared/platforms/linkedin-growth.md) - LinkedIn strategy (ONLY if user asks about growth)
+- [../../.shared/platforms/twitter-algorithm-deep-dive.md](../../.shared/platforms/twitter-algorithm-deep-dive.md) - X algorithm optimization (ONLY when requested)
+
+### Writing Craft (CONDITIONAL - Load only when needed)
+- [../../.shared/writing-craft/hooks-and-structure.md](../../.shared/writing-craft/hooks-and-structure.md) - Hook patterns (ONLY if struggling)
+- [../../.shared/writing-craft/storytelling.md](../../.shared/writing-craft/storytelling.md) - Storytelling (ONLY for narratives)
+- [../../.shared/writing-craft/psychology.md](../../.shared/writing-craft/psychology.md) - Persuasion (ONLY for marketing posts)
+
+### Advanced Materials (CONDITIONAL)
+- [../../.shared/hooks/universal-hook-patterns.md](../../.shared/hooks/universal-hook-patterns.md) - Hook variations (ONLY when requested)
+- [../../.shared/story-evaluation/3-filter-system.md](../../.shared/story-evaluation/3-filter-system.md) - Story filtering (ONLY for evaluation)
+- [../../.shared/visual-strategy/image-sourcing-guide.md](../../.shared/visual-strategy/image-sourcing-guide.md) - Image sourcing (ONLY for visual content)
+
+### Tone-of-Voice (CONDITIONAL)
+- [../../.shared/tone/fintechbrainfood.md](../../.shared/tone/fintechbrainfood.md) - FintechBrainfood tone (ONLY if requested)
+
+### Examples (CONDITIONAL)
+- [../../.shared/examples/linkedin-examples.md](../../.shared/examples/linkedin-examples.md) - LinkedIn examples (ONLY if user asks)
+- [../../.shared/examples/twitter-examples.md](../../.shared/examples/twitter-examples.md) - Twitter examples (ONLY if user asks)
 
 ---
 
@@ -66,31 +82,53 @@ When a user asks you to create a social post, first gather:
 
 Use `AskUserQuestion` if any of these are unclear.
 
-### Step 2: Select the Right Framework
+### Step 2: Select the Right Framework (Simon's Conditional Loading)
 
-Based on the request, reference the appropriate guides:
+Based on the request, reference the appropriate guides. **Load only what's needed to keep context efficient.**
 
-**For LinkedIn Posts:**
-1. Read [core/instructions.md](core/instructions.md) for the main framework
-2. Read [core/learned-patterns.md](core/learned-patterns.md) for real-world refinement patterns
-3. Read [platforms/linkedin-algorithm.md](platforms/linkedin-algorithm.md) for 2025 optimization
-4. Read [platforms/linkedin-growth.md](platforms/linkedin-growth.md) for posting strategy
-5. Read [writing-craft/hooks-and-structure.md](writing-craft/hooks-and-structure.md) for hook patterns
+**For LinkedIn Posts (Simon):**
 
-**For Twitter/X Posts:**
-1. Read [core/instructions.md](core/instructions.md) for the main framework
-2. Read [core/learned-patterns.md](core/learned-patterns.md) for real-world refinement patterns
-3. Read [platforms/twitter.md](platforms/twitter.md) for Twitter-specific tactics
-4. Read [writing-craft/hooks-and-structure.md](writing-craft/hooks-and-structure.md) for hook patterns
+*ALWAYS read:*
+1. [../../core/instructions.md](../../core/instructions.md) - Universal framework
+2. [../../.shared/core/learned-patterns.md](../../.shared/core/learned-patterns.md) - Universal patterns (everyone)
+3. [core/simon-learned-patterns.md](core/simon-learned-patterns.md) - Simon's personal patterns (living document)
+4. [core/simon-voice-patterns.md](core/simon-voice-patterns.md) - Simon's unique voice
+5. [../../platforms/linkedin-algorithm.md](../../platforms/linkedin-algorithm.md) - LinkedIn 2025 tactics
 
-**For News-Driven Posts:**
-- Read [core/learned-patterns.md](core/learned-patterns.md) for "BREAKING:" format and timely hooks
+*CONDITIONALLY read (only when needed):*
+- [../../.shared/platforms/linkedin-growth.md](../../.shared/platforms/linkedin-growth.md) - ONLY if user asks about growth strategy
+- [../../.shared/writing-craft/hooks-and-structure.md](../../.shared/writing-craft/hooks-and-structure.md) - ONLY if struggling with hooks
+- [../../.shared/writing-craft/storytelling.md](../../.shared/writing-craft/storytelling.md) - ONLY for story-driven posts
+- [../../.shared/writing-craft/psychology.md](../../.shared/writing-craft/psychology.md) - ONLY for persuasion posts
+- [core/image-generation-guidelines.md](core/image-generation-guidelines.md) - ONLY when creating images
 
-**For Storytelling/Narrative Posts:**
-- Add [writing-craft/storytelling.md](writing-craft/storytelling.md) for MrBeast principles
+**For Twitter/X Posts (Simon):**
 
-**For Marketing/Persuasion:**
-- Add [writing-craft/psychology.md](writing-craft/psychology.md) for psychological frameworks
+*ALWAYS read:*
+1. [../../core/instructions.md](../../core/instructions.md) - Universal framework
+2. [../../.shared/core/learned-patterns.md](../../.shared/core/learned-patterns.md) - Universal patterns
+3. [core/simon-learned-patterns.md](core/simon-learned-patterns.md) - Simon's patterns
+4. [core/simon-voice-patterns.md](core/simon-voice-patterns.md) - Simon's voice
+5. [../../platforms/twitter.md](../../platforms/twitter.md) - Twitter writing tactics
+
+*THEN ask the user:*
+
+**"Would you like me to optimize this for the X algorithm (2025)? This adds detailed ranking signals and engagement tactics."**
+
+- If YES → Read [../../.shared/platforms/twitter-algorithm-deep-dive.md](../../.shared/platforms/twitter-algorithm-deep-dive.md)
+- If NO → Skip algorithm deep dive
+
+*CONDITIONALLY read (only when needed):*
+- [../../.shared/writing-craft/hooks-and-structure.md](../../.shared/writing-craft/hooks-and-structure.md) - ONLY if struggling
+- [../../.shared/hooks/universal-hook-patterns.md](../../.shared/hooks/universal-hook-patterns.md) - ONLY if user requests variations
+
+**Expected Token Usage for Simon:**
+- Typical post: ~12K tokens (universal + Simon's patterns + platform)
+- With algorithm optimization: ~20K tokens (adds algorithm deep dive)
+- Still 60% reduction from previous ~30K tokens
+
+**Learning System Note:**
+Simon can continue adding patterns to [core/simon-learned-patterns.md](core/simon-learned-patterns.md). This file is a living document that Simon actively updates as he discovers new patterns. Universal patterns stay in ../../.shared/core/learned-patterns.md.
 
 ### Step 3: Apply Tone-of-Voice
 
