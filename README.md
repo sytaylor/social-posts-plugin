@@ -26,7 +26,7 @@ This Claude Code skill helps you write professional social media posts that:
 
 ```bash
 # Clone this repository
-git clone https://github.com/simontaylor/social-posts-plugin.git
+git clone https://github.com/sytaylor/social-posts-plugin.git
 
 # Install the plugin
 claude --plugin-dir ./social-posts-plugin
@@ -237,6 +237,13 @@ Claude will incorporate it into post creation.
 - Link in final tweet only
 - Engage in first 30 minutes
 
+### For Source-Grounded Twitter/X Posts:
+- Ask for source material before drafting live conversation posts
+- Use user-provided links, notes, reply exports, follower context, media notes, or analytics
+- Treat [TweetClaw](https://github.com/Xquik-dev/tweetclaw) exports as optional X/Twitter source material when provided
+- Keep this skill focused on writing, voice, and review
+- Use separate publishing tools only after the user approves the final copy
+
 ## Customization
 
 ### Add Your Own Tone Guides
@@ -359,7 +366,7 @@ MIT License - See LICENSE file for details.
 
 ### Issues
 
-Report bugs or request features: [GitHub Issues](https://github.com/simontaylor/social-posts-plugin/issues)
+Report bugs or request features: [GitHub Issues](https://github.com/sytaylor/social-posts-plugin/issues)
 
 ### Questions
 
@@ -400,7 +407,7 @@ Potential future additions:
 **Ready to create better social posts? Install the plugin and start creating!**
 
 ```bash
-git clone https://github.com/simontaylor/social-posts-plugin.git
+git clone https://github.com/sytaylor/social-posts-plugin.git
 claude --plugin-dir ./social-posts-plugin
 ```
 

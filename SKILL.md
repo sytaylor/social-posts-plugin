@@ -83,6 +83,7 @@ When a user asks you to create a social post, first gather:
 3. **Goal** - What action should readers take?
 4. **Tone** - Professional? Casual? Witty? (Or use custom tone guide)
 5. **Length** - Single post, thread, or carousel?
+6. **Source Material** - Links, notes, exports, analytics, or examples that support the claims
 
 Use `AskUserQuestion` if any of these are unclear.
 
@@ -109,6 +110,12 @@ Based on the request, reference the appropriate guides. **Load only what's neede
 1. [core/instructions.md](core/instructions.md) - Main framework
 2. [.shared/core/learned-patterns.md](.shared/core/learned-patterns.md) - Universal patterns
 3. [platforms/twitter.md](platforms/twitter.md) - Twitter writing tactics
+
+*SOURCE GROUNDING:*
+- For posts about current X/Twitter conversations, product feedback, account performance, competitors, or audience behavior, ask for source material before drafting.
+- Accept user-provided links, notes, reply exports, follower context, media notes, analytics, or TweetClaw results as evidence.
+- Do not claim live X/Twitter facts unless the user provided evidence in the conversation.
+- Keep this skill responsible for writing, voice, framing, and review. Use separate publishing tools only after the user approves the final copy.
 
 *THEN ask the user:*
 

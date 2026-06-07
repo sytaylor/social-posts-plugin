@@ -26,7 +26,7 @@ This Claude Code skill helps you write professional social media posts that:
 
 ```bash
 # Clone this repository
-git clone https://github.com/simontaylor/social-posts-plugin.git
+git clone https://github.com/sytaylor/social-posts-plugin.git
 
 # Install the plugin
 claude --plugin-dir ./social-posts-plugin
@@ -337,7 +337,7 @@ MIT License - See LICENSE file for details.
 
 ### Issues
 
-Report bugs or request features: [GitHub Issues](https://github.com/simontaylor/social-posts-plugin/issues)
+Report bugs or request features: [GitHub Issues](https://github.com/sytaylor/social-posts-plugin/issues)
 
 ### Questions
 
@@ -378,7 +378,7 @@ Potential future additions:
 **Ready to create better social posts? Install the plugin and start creating!**
 
 ```bash
-git clone https://github.com/simontaylor/social-posts-plugin.git
+git clone https://github.com/sytaylor/social-posts-plugin.git
 claude --plugin-dir ./social-posts-plugin
 ```
 

@@ -4,11 +4,11 @@
   "version": "1.0.0",
   "author": {
     "name": "Simon Taylor",
-    "url": "https://github.com/simontaylor"
+    "url": "https://github.com/sytaylor"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/simontaylor/social-posts-plugin"
+    "url": "https://github.com/sytaylor/social-posts-plugin"
   },
   "keywords": [
     "social-media",
